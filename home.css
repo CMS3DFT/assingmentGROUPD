@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  padding: px;}
+
+  .maria {
+      width: 350px;
+      background: linear-gradient(45deg, #ff75b3, #ff758c);
+      padding: 20px;
+      text-align: center;
+      border-radius: 15px;
+      color: white;
+      box-shadow:  8px 16px rgba(0, 0, 0, 0.02);
+      margin-bottom: 20px;
+    }
+    .maria:hover {
+      transform:scale(1.1,1.1);
+      border: 2px solid white;
+
+    }
+    
+
+.butten button{
+  padding: 10px 20px;
+  background-color: #ddd;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+  margin: 5px;
+}
+
+ .active {
+  background: linear-gradient( #ff85b2,#ff758c);
+  color: white;
+}
+.active:hover{
+  background: linear-gradient(grey,rgb(177, 175, 175));
+}
+
+.butten button:hover {
+  background-color: lightgrey ;
+}
+.container  input {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 1220px;
+  margin: 10px;
+  margin-left: 0;
+}
+.container{
+  border: none;
+ margin: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 30px;
+}
+.container.contact{
+  padding: 10px 20px;
+  background-color: #ff85b2;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+.contact{
+  padding: 10px 20px;
+  background-color: #ff758c;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+  background-color: #ff85b2;
+  color: white;
+}
+.contact:hover{
+  background-color: #e76a98;
+
+}
+.coste{
+  background: radial-gradient(#ff7eb3,#ff758c);
+  width: 1225px;
+  color: white;
+  padding: 0px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.coste h2{
+  margin-bottom: 10px;
+}
+.coste{
+  margin-bottom: 15px; 
+}
+.coste ul {
+  list-style: disc;
+}
+
+.ul li {
+  margin-bottom: 8px;
+}
+
+.coste ul li  {
+  font-weight: bold;
+}
+div ul :first-child{
+background-color: rgba(255,255,255,0.201);
+}
+div ul :last-child{
+  background-color: rgba(255,255,255,0.201);
+}
+ul li::marker{
+  color: #f9f9f9
+}
+.coste p::first-line{
+  text-decoration: underline;
+  color: white;
+}
+span{
+color: white;
+position: relative;
+top:-33px;
+}

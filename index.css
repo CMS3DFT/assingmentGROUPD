@@ -1,0 +1,37 @@
+h1{
+    color: brown;
+}
+.container{
+    width: 350px;
+    height: 40px;
+    font-size: strong;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+.container:focus{
+    border: 2px solid red;
+    outline: none;
+}
+.gender{
+    accent-color: yellow;
+}
+.contact{
+    width: 40px;
+    height: 40px;
+    padding: 45px;
+    accent-color: red;
+}
+
+label{
+    font-weight: bold;
+}
+
+button{
+    width: 350px;
+    height: 40px;
+    background-color: aqua;
+    border-radius: 10px;
+}
+.ram{
+    background-color: pink;
+}

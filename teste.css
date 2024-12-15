@@ -1,0 +1,43 @@
+body{
+    background-color: whitesmoke;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    gap: 20px;
+}
+
+.card1{
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    box-shadow: 5px 5px 5px lightgrey;
+    display: flex;
+    
+}
+.card2{
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    box-shadow: 5px 5px 5px lightgrey;
+    display: flex;
+    
+}
+.card3{
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    box-shadow: 5px 5px 5px lightgrey;
+    
+}
+.card p{
+    padding-right: 50px;
+}
+img{
+    
+    border-radius: 50%;
+}

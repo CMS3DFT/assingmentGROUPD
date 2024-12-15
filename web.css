@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: whitesmoke;
+}
+.logo{
+    height: 50px;
+}
+
+.umu{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 10px 10px 10px grey;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    
+}
+.nav{
+    gap: 30px;
+    display: flex;
+    list-style: none;
+    
+    
+    
+}
+ul li a{
+    text-decoration: none;
+}
+
+
+ .anfac{
+    width: 90px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: green;
+    border: none;
+    color: white;
+
+ }
+ .hero{
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    font-size: 20px;
+ }
+ .hero p{
+    line-height: 1.5;
+ }
+ h3{
+    color: green;
+ }
+ .web{
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+ }
+ .costumer {
+    justify-content: center;
+    text-align: center;
+    line-height: 1.5;
+    background-color: #fff;
+ }
+ span{
+    color: red;
+ }
+ h1{
+    font-size: 30px;
+ }
+
+ .cadr{
+    background-color: white;
+ }
+ 
+ .card{
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    flex-wrap: wrap;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 100px;
+ }
+
+ .card2{
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    line-height: 1.2;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-bottom: 100px;
+ }
+
+
+ h2,h5{
+    color: brown;
+}
+.muno{
+   display: flex;
+   line-height: 2;
+   font-size: 20px;
+}
+.nu,.fu{
+   display: flex;
+   gap: 30px;
+   gap: 20px;
+   margin-top: 30px;
+}
+.mu{
+   width: 290px;
+   height: 130px;
+   background-color: whitesmoke;
+   text-align: center;
+   color: blue;
+   border-radius: 30px;
+}

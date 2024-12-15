@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>University SIU Regstration Details</h1>
+    <form>
+        <label>Name:</label><br>
+        <input class="container" type="text" placeholder="Name" required><br><br>
+        <label>ID:</label><br>
+        <input class="container" type="ID" placeholder="Enter you ID" required><br><br>
+        <label>DOB:</label><br>
+        <input class="container" type="date"><br><br>
+        <label>Address</label><br>
+        <input class="container" type="text" placeholder="enter your address" required><br><br> 
+        <label>gender:</label><br>
+        <input class="contact"  name="gender" type="radio">
+        <label for="male">male</label>
+        <input class="contact" name="gender" type="radio">
+        <label for="female">female</label><br><br>
+        <label>Faculty:<br>
+        <select class="container" name="" id="">
+            <option value="">c.s</option>
+            <option value="">B.A</option>
+            <option value="">nursing</option>
+            <option value="">Eng</option>
+            <option value="">public health</option>
+            <option value="">Education</option>
+        </select>
+        </label>
+        <br><br>
+        <button id="printButton" onclick="handlePrint()">print</button><br><br>
+     <button class="ram"id="resetButton" type="reset">reset</button>
+     <script>
+      function handlePrint()
+      {
+        document.getElementById('printButton').style.display='none'
+        document.getElementById('resetButton').style.display='none'
+        window.print();
+      }
+</script>
+    </form>
+</body>
+</html>
